@@ -8,17 +8,36 @@ This is a dice game called Pig and can be played with two people.
 
 I made this using javascript and the rules are based off of [here](https://en.wikipedia.org/wiki/Pig_(dice_game))
 
-If there are any changes to improve this project, I'd greatly appreciate it.
+Since it's my very first javascript project, if there are any changes to improve this project, I'd greatly appreciate it.
+
 
 ## How to Play :notebook_with_decorative_cover:
+
 The game is created based off of these rules:
--There are two players in the game
--
+
+- There are two players in the game
+
+- Default winning score is 100, but you can change it to any number
+
+- You may roll as much as you can, but:
+
+    - If you roll a one, you lose your 'current' score and it is the next player's turn
+    
+    - If you roll two sixes, you lose all of your score and it is the next player's turn
+    
+- The first person to hold with a total score that is the same or higher than the winning score, said person wins.
+## Game preview
+![mid-game](https://github.com/dumblole/Pig-dice-game/blob/master/images/game.PNG)
+![mid-game](https://github.com/dumblole/Pig-dice-game/blob/master/images/win.PNG)
 ## Languages :speech_balloon:
 
 -   html
 -   css
 -   js
+
+## Resources :books:
+- Icons are from [ionicons](https://ionicons.com/)
+- Font from google fonts
 
 ## Code Style :art:
 
