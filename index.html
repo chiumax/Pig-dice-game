@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+
+        <title>Pig Game</title>
+    </head>
+
+    <body>
+        <div class="wrapper clearfix">
+            <div class="player-true-panel active">
+                <div class="player-name" id="name-true">Player 1</div>
+                <div class="player-score" id="score-true">0</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-true">0</div>
+                </div>
+            </div>
+
+            <div class="player-false-panel">
+                <div class="player-name" id="name-false">Player 2</div>
+                <div class="player-score" id="score-false">0</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="current-false">0</div>
+                </div>
+            </div>
+
+            <button class="btn-new">
+                <i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll" id="rolld">
+                <i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold" id='holdd'>
+                <i class="ion-ios-download-outline"></i>Hold</button>
+
+            <input type="number" name="Set Winning Score" placeholder="Set Winning Score" class="final-score" min="1">
+            <div class="check-box" for="checky">
+                <input type="checkbox" name="Toggle Roll Animation" id="checky">
+                <label for="checky" class='noselect' id='cicon'>
+                    <i class="ion-android-checkbox-blank" id="checkicon" style="font-size: 200;"></i>Turn Off Roll Animation</label>
+
+            </div>
+            <img src="dice-5.png" alt="Dice" class="dice" id="d1">
+            <img src="dice-5.png" alt="Dice" class="dice" id="d2">
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
