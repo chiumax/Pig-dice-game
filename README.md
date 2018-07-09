@@ -1,1 +1,31 @@
-# Pig-dice-game
+# Pig dice game :game_die:
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![code style: pretty diff](https://img.shields.io/badge/code%20style-pretty%20dif-lightgrey.svg?style=flat-square)](https://github.com/prettydiff/prettydiff)
+
+Hi, thanks for checking out my repository!
+
+This is a dice game called Pig and can be played with two people.
+
+I made this using javascript and the rules are based off of [here](https://en.wikipedia.org/wiki/Pig_(dice_game))
+
+If there are any changes to improve this project, I'd greatly appreciate it.
+
+## How to Play :notebook_with_decorative_cover:
+The game is created based off of these rules:
+-There are two players in the game
+-
+## Languages :speech_balloon:
+
+-   html
+-   css
+-   js
+
+## Code Style :art:
+
+-   I use the [Prettier](https://prettier.io/) code formatter for js (default settings from [atom-beautify](https://github.com/Glavin001/atom-beautify)).
+
+    [<img src ="https://prettier.io/icon.png" alt="prettier logo" width="100" height="100">](https://prettier.io/)
+
+*   I use the [Pretty Diff](https://github.com/prettydiff/prettydiff) code formatter for html (default settings from [atom-beautify](https://github.com/Glavin001/atom-beautify)).
+
+    [<img src ="https://avatars.githubusercontent.com/u/524902?v=3" alt="Pretty Diff logo" width="100" height="100">](https://github.com/prettydiff/prettydiff)
