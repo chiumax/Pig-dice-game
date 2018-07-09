@@ -1,15 +1,7 @@
 /*
 Traditional Pig dice game recreated by dumblole.
 Check out the repository page for more information:
-
-GAME RULES:
-
-- The game has 2 players, playing in rounds
-- In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score
-- BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
-- The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn
-- The first player to reach 100 points on GLOBAL score wins the game
-
+https://github.com/dumblole/Pig-dice-game
 */
 
 let pScores,
@@ -40,8 +32,8 @@ currentPlayer = true;
 diceNum = 0;
 prevDie = 0;
 // Setting up some audio cues for events like rolling and winning
-tick = new Audio('tick.wav');
-ding = new Audio('ding.wav');
+tick = new Audio('audio/tick.wav');
+ding = new Audio('audio/ding.wav');
 // I'd rather not copy paste so I substituted the following into variables.
 dice = document.getElementById('d1');
 dice2 = document.getElementById('d2');
@@ -77,9 +69,9 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 		currentDice = Math.floor(Math.random() * 6) + 1;
 		currentDice2 = Math.floor(Math.random() * 6) + 1;
 		dice.style.display = 'block';
-		dice.src = 'dice-' + currentDice + '.png';
+		dice.src = 'images/dice-' + currentDice + '.png';
 		dice2.style.display = 'block';
-		dice2.src = 'dice-' + currentDice2 + '.png';
+		dice2.src = 'images/dice-' + currentDice2 + '.png';
 	}, 50);
 
 	/*
