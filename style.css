@@ -48,7 +48,34 @@
 #checky {
 	display: none;
 }
+.linke {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	left: 125px;
+	top: 550px;
+	color: #555;
+	font-size: 20px;
+	font-family: 'Lato';
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+.link:link {
+	text-decoration: none;
+}
 
+.link:visited {
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+.link:active {
+	text-decoration: underline;
+}
 .noselect {
 	-webkit-user-select: none;
 	-khtml-user-select: none;
