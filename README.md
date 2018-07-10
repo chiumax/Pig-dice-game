@@ -1,6 +1,6 @@
 # Pig dice game :game_die:
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![code style: pretty diff](https://img.shields.io/badge/code%20style-pretty%20dif-lightgrey.svg?style=flat-square)](https://github.com/prettydiff/prettydiff)
+[![code style: pretty diff](https://img.shields.io/badge/code%20style-pretty%20diff-lightgrey.svg?style=flat-square)](https://github.com/prettydiff/prettydiff)
 
 Hi, thanks for checking out my repository!
 
