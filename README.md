@@ -8,7 +8,7 @@ This is a dice game called Pig and can be played with two people. The rules can 
 
 Check it out live: https://dumblole.github.io/Pig-dice-game/
 
-I made this using javascript and the rules are based off of [here](https://en.wikipedia.org/wiki/Pig_(dice_game).
+I made this using javascript and the rules are based off of [here](https://en.wikipedia.org/wiki/Pig_(dice_game)).
 
 Since it's my very first javascript project, if there are any changes to improve this project, I'd greatly appreciate it.
 
